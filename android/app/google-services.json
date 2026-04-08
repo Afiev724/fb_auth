@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "121840570476",
+    "project_id": "fb-authentication-16b41",
+    "storage_bucket": "fb-authentication-16b41.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121840570476:android:8497e9b5dd5af58aca0849",
+        "android_client_info": {
+          "package_name": "com.example.fb_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAe0_stFP9y-FuLJ6KwWTN-HAMJwwCOb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
