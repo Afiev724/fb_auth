@@ -8,7 +8,13 @@ import 'screens/register_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } on UnsupportedError catch (e) {
+    debugPrint('Firebase init skipped: $e');
+  }
 
   runApp(const MyApp());
 }
